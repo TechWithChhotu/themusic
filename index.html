@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportify - The Music Hub</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <nav class="Header">
+        <ul>
+            <li id="Sportify"> <img src="./logo.png" alt="Sportify"> Sportify</li>
+            <li>Home</li>
+            <li>About Sportify</li>
+        </ul>
+    </nav>
+
+    <div class="Container">
+        <!-- Songs Container -->
+        <ul class="Songs">
+        </ul>
+        <img class="playingGIF-1 GIF op-0" src="./playing.gif" alt="">
+        <img class="playingGIF-2 GIF op-0" src="./playing.gif" alt="">
+        <img class="playingGIF-3 GIF op-0" src="./playing.gif" alt="">
+        <img class="playingGIF-4 GIF op-0" src="./playing.gif" alt="">
+
+
+    </div>
+
+    <div class="buttom">
+        <p id="SongNameMaster">Cielo - Huma-Huma</p>
+        <input type="range" max="100" min="0" id="ProgressBar" value="0">
+        <div class="playPrevNext">
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="1 far fa-2x fa-play-circle pause" id="masterPlayBtn"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
